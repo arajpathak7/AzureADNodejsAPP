@@ -1,13 +1,13 @@
-# This project shows, how to receive Azure Active Directory token. It then uses the token to get user profile details from Azure AD by using Microsoft Graph
+# How to run the completed project
 
-## How to run the completed project
+## This project shows, how to receive Azure Active Directory token. It then uses the token to get user profile details from Azure AD by using Microsoft Graph
 
 ## Prerequisites
 
 To run the completed project in this folder, you need the following:
 
 - [Node.js](https://nodejs.org) installed on your development machine. If you do not have Node.js, visit the previous link for download options. (**Note:** This tutorial was written with Node version 10.7.0 and above. The steps in this guide may work with other versions, but that has not been tested.)
-- You can [sign up for the Office 365 Developer Program](https://developer.microsoft.com/office/dev-program) to get a free Office 365 subscription.
+- You can [sign up for the Office 365 Developer Program](https://developer.microsoft.com/office/dev-program) to get a **free Office 365 subscription**. {The process will help you create a Global Administrator account for the respective Azure AD tenant.}
 
 ## Register a web application with the Azure Active Directory Portal
 
