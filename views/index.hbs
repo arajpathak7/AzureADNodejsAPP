@@ -1,0 +1,21 @@
+<div class="jumbotron">
+    <h1>Node.js Application with Azure AD</h1>
+    <p class="lead">This sample app shows how to recieve Azure AD token </p>
+    {{#if user}}
+    <h4>Welcome {{ user.displayName }}!</h4>
+    <p>  The Azure AD token is used to access user profile information with Microsoft Graph.</p>
+    <h5>User Details: </h5>
+    <ul>
+        <li>Display Name: {{user.displayName}}</li>
+        <li>Given Name: {{user.givenName}}</li>
+        <li>Surname: {{user.surname}}</li>
+        <li>UPN: {{user.email}}</li>
+        <li>Job Title: {{user.jobTitle}}</li>
+        <li>Mobile Phone: {{user.mobilePhone}}</li>
+        <li>Office Location: {{user.officeLocation}}</li>
+        <li>Prefered Language: {{user.preferredLanguage}}</li>
+    </ul>
+    {{else}}
+    <a href="/auth/signin" class="btn btn-primary btn-large">Click here to sign in</a>
+    {{/if}}
+</div>
