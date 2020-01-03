@@ -1,5 +1,5 @@
 # How to run the completed project
-
+Clone the Repo to your local folder. You can open the local folder in Visual Studio to view the code.
 ## This project shows, how to receive Azure Active Directory token. It then uses the token to get user profile details from Azure AD by using Microsoft Graph
 
 ## Prerequisites
